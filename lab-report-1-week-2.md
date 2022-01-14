@@ -26,15 +26,17 @@ In the terminal, try these commands. Write down some notes about what those comm
 ![Image](b5f852346db2b953ebfb59402d975e20.png)
 <br/><br/>
 # Moving Files with scp
-Create a new java file called 123.java. In the terminal run "scp 123.java 'username'@ieng6.ucsd.edu:~/". Log into ssh again and enter lp in the terminal to move the file.
+Create a new java file. In the terminal run "scp 'file name' 'username'@ieng6.ucsd.edu:~/". Log into ssh again and enter lp in the terminal to move the file.
 
 ![Image](image12.png)
 <br/><br/>
 # Setting an SSH Key
-Enter "ssh-keygen" into the terminal. Enter the file shows in the parentheses and enter your key. Log into your account and enter "mkdir .ssh", logout, and enter "scp "public key file" "username"@ieng6.ucsd.edu:~/.ssh/authorized_keys" to finish setup the key.
+Enter "ssh-keygen" into the terminal. Enter the file shows in the parentheses and enter your key. Windows need another  ssh-add step : https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation 
+
+Log into your account and enter "mkdir .ssh", logout, and enter "scp "public key file" "username"@ieng6.ucsd.edu:~/.ssh/authorized_keys" to finish setup the key.
 ![Image](ba45e9706ac8adddf882e97827814e46.png)
 ![Image](ba45e9706ac8adddf882e97827814e46.png)
 <br/><br/>
 # Optimizing Remote Running
-Ther are different ways you can use to optimize remote running. You can make a command before loggin in by adding ""command" after ssh. You can also separate your code into different lines using semicolons. 
+Ther are different ways you can use to optimize remote running. You can make a command before loggin in by adding "command" after ssh. You can also separate your code into different lines using semicolons. 
 ![Image](9ac848ab6a13a434f3cb8492d682274b.png)
