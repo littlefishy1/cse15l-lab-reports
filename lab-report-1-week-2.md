@@ -14,15 +14,15 @@ If using Windows,install [OpenSSh](https://docs.microsoft.com/en-us/windows-serv
 <br/><br/>
 # Trying Some Commands
 In the terminal, try these commands. Write down some notes about what those commands do.
-* cd
-* cd ~
-* ls
-* ls -lat
-* ls -a
-* pwd
-* mkdir
-* cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lwi22/public/hello.txt
+* cd (changes directory)
+* cd ~ (changes directory to home directory)
+* ls (list files)
+* ls -lat (list filessoted by date)
+* ls -a (list everything)
+* pwd (print work directory)
+* mkdir (creates directory)
+* cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/ (copy files)
+* cat /home/linux/ieng6/cs15lwi22/public/hello.txt (print files)
 ![Image](b5f852346db2b953ebfb59402d975e20.png)
 <br/><br/>
 # Moving Files with scp
