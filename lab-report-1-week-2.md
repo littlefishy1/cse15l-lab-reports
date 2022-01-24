@@ -31,7 +31,7 @@ Create a new java file. In the terminal run ```scp 'file name' 'username'@ieng6.
 ![Image](image12.png)
 <br/><br/>
 # Setting an SSH Key
-Enter ```ssh-keygen``` into the terminal. Enter the file shows in the parentheses and enter your key. Windows need another  ssh-add step : [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).  Log into your account and enter ```mkdir .ssh", logout, and enter "scp "public key file" 'username'@ieng6.ucsd.edu:~/.ssh/authorized_keys``` to finish setup the key.
+Enter ```ssh-keygen``` into the terminal. Enter the file shows in the parentheses and enter your key. Windows need another  ssh-add step : [link](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).  Log into your account and enter ```mkdir .ssh```, logout, and enter ```scp 'public key file' 'username'@ieng6.ucsd.edu:~/.ssh/authorized_keys``` to finish setup the key.
 ![Image](ba45e9706ac8adddf882e97827814e46.png)
     
 ![Image](ba45e9706ac8adddf882e97827814e46.png)
