@@ -33,3 +33,13 @@ The bug is that the code accounts for brackets and parentheses for links. The sy
 # Code Change 3
 <br/><br/>
 Code change diff: 
+![Image](96c0ae076cc8716a6213e4014989e5d8.png)
+
+[link to the file that caused the error](https://github.com/littlefishy1/markdown-parse/blob/main/test-file8.md)
+
+
+Symptoms: 
+
+![Image](3aea010336a7ae43ec1e22b82c6c0324.png)
+
+The bug is that the code did not account for the cases where the file start with "[". The symptom caused by it is that exception would be called when the nextOpenBracket-1 = -1 which would lead to an index of -1. test-file8.md is an example of such cases where the file starts with "[".
