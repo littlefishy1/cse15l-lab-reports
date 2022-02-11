@@ -1,5 +1,5 @@
 # **Lab Report 3**
-February , 2022
+February 10, 2022
 <br/><br/>
 <br/><br/>
 # ```.ssh/config``` file
